@@ -1,0 +1,206 @@
+Perfect 👏 — you want **topic-wise NumPy practice questions** focused on very specific sub-concepts.
+Here’s a **complete categorized set of programming exercises** — clear, practical, and arranged exactly by your headings and subtopics.
+
+---
+
+## 🧩 **1. Indexing and Slicing**
+
+### 🔸 **Access**
+
+1. Create a 1D array of numbers 10 to 20. Access:
+
+   * the first element
+   * the last element
+   * element at index 4
+2. Create a 3×3 array and access the element at row 2, column 3.
+3. Access all elements of the 2nd row of a 4×4 matrix.
+4. Access all elements of the 1st column of a 5×5 array.
+5. Access every alternate element from an array `[0, 1, 2, ..., 10]`.
+
+---
+
+### 🔸 **Fancy Indexing**
+
+6. Create an array `arr = np.arange(10, 20)` and access elements at indices `[1, 3, 5, 7]`.
+7. From a 5×5 matrix, extract values at positions (0,0), (1,2), (2,4), (3,1), (4,3).
+8. Given `arr = np.array([5,10,15,20,25])`, get values using index array `[0, 2, 4]`.
+9. Replace elements at indices `[1, 3, 4]` in an array with `0`.
+10. Create two arrays `a = np.array([1,2,3,4])`, `b = np.array([0,2,3])`; use fancy indexing to extract `a[b]`.
+
+---
+
+### 🔸 **Filtering**
+
+11. Given an array from 1 to 10, filter out all even numbers.
+12. Extract all numbers greater than 50 from a random array of 100 elements.
+13. Create an array of random integers and filter elements divisible by 5.
+14. From `arr = np.array([2, -3, 4, -6, 8])`, filter only positive numbers.
+15. Get all elements not equal to 10 from `arr = np.array([10,20,10,30,10])`.
+
+---
+
+### 🔸 **Slicing**
+
+16. Create an array `[1,2,3,4,5,6,7,8,9]` and slice from index 2 to 6.
+17. Slice every 2nd element from a 1D array of 20 elements.
+18. From a 4×4 matrix, extract the top-left 2×2 block.
+19. Extract the last two rows and last two columns from a 5×5 array.
+20. Reverse a 1D array using slicing only.
+
+---
+
+## 🧮 **2. Reshaping & Manipulation**
+
+### 🔸 **Flattening**
+
+21. Create a 3×3 matrix and flatten it to 1D using `.flatten()` and `.ravel()`.
+22. Flatten a 3D array of shape (2,3,4) and verify total number of elements.
+23. Show difference between `ravel()` (view) and `flatten()` (copy).
+24. Given a reshaped array, flatten only selected rows.
+25. Convert a 2D array into a list using flattening.
+
+---
+
+### 🔸 **Reshape**
+
+26. Create an array of size 12 and reshape it to (3,4).
+27. Reshape a 1D array `[1–27]` into a 3×3×3 cube.
+28. Convert a 6×2 array into a 2×6 array using `.reshape()`.
+29. Reshape a 1D array into 2D (row vector) and 2D (column vector).
+30. Given a 2D array of shape (4,6), reshape it to (2,12).
+
+---
+
+## ⚙️ **3. Advanced NumPy**
+
+### 🔸 **Append**
+
+31. Create an array `[1,2,3]` and append `[4,5,6]` to it.
+32. Append a new row `[7,8,9]` to a 2D array of shape (2,3).
+33. Append a new column `[10,11]` to an existing (2,3) matrix.
+34. Append multiple arrays together using a loop.
+35. Append values only if they are not already in array.
+
+---
+
+### 🔸 **Concatenate**
+
+36. Concatenate two 1D arrays `[1,2,3]` and `[4,5,6]`.
+37. Concatenate two 2D arrays vertically and horizontally.
+38. Concatenate three 1D arrays into one.
+39. Create a 3×3 matrix and concatenate it with itself along both axes.
+40. Concatenate arrays of different dimensions (handle reshape if needed).
+
+---
+
+### 🔸 **Delete (1D & 2D)**
+
+41. Delete element at index 2 from `[1,2,3,4,5]`.
+42. Delete multiple elements `[1,3,5]` from `np.arange(10)`.
+43. Delete the 2nd row from a 3×3 array.
+44. Delete the first and last column from a 4×4 array.
+45. Delete a row or column using slicing instead of `np.delete()`.
+
+---
+
+### 🔸 **Insert (1D & 2D)**
+
+46. Insert `99` at index 2 in a 1D array `[1,2,3,4,5]`.
+47. Insert `[10,20,30]` as a new row into a (2×3) matrix.
+48. Insert a new column `[100,200]` into a (2×3) matrix.
+49. Insert elements at multiple indices `[1,3]` in an array.
+50. Insert one array into another at a specific axis.
+
+---
+
+### 🔸 **Splitting**
+
+51. Split `[1–10]` into two equal halves.
+52. Split a 2D array into top and bottom halves.
+53. Split a 4×4 array into 4 equal 2×2 blocks.
+54. Use `np.array_split()` to split array unevenly.
+55. Split a 1D array into N equal parts dynamically.
+
+---
+
+### 🔸 **Stacking**
+
+56. Stack two 1D arrays vertically using `np.vstack()`.
+57. Stack two 1D arrays horizontally using `np.hstack()`.
+58. Use `np.column_stack()` to merge column-wise.
+59. Stack multiple small arrays into a 3D array.
+60. Compare `stack()`, `vstack()`, and `hstack()` with examples.
+
+---
+
+## ⚡ **4. Broadcasting and Vectorization**
+
+### 🔸 **1D_to_2D**
+
+61. Convert a 1D array into 2D row and column vector.
+62. Multiply a 1D array with a 2D array using broadcasting.
+63. Add a 1D bias vector to a 2D matrix.
+64. Use broadcasting to scale each column of a 2D array by a 1D array.
+65. Apply broadcasting to create a multiplication table (1×10, 10×1).
+
+---
+
+### 🔸 **Error Problems**
+
+66. Create two arrays of shape (3,4) and (4,3). Try to add them → observe error.
+67. Multiply arrays with mismatched dimensions and fix it using reshape.
+68. Attempt to broadcast (3,1) with (2,3) → identify mismatch reason.
+69. Debug a code that fails due to broadcasting rules.
+70. Write a program that checks if two shapes are broadcast-compatible.
+
+---
+
+### 🔸 **Single Problems (Mini-Projects)**
+
+71. Vectorize Celsius→Fahrenheit conversion using NumPy arrays.
+72. Compute `z = x² + y²` using broadcasting on arrays `x` and `y`.
+73. Normalize an image matrix to range [0,1].
+74. Implement vectorized sigmoid: `1 / (1 + exp(-x))`.
+75. Use broadcasting to compute pairwise sum of two 1D arrays.
+
+---
+
+### 🔸 **Solution Exercises**
+
+76. Replace nested loops with a vectorized operation that computes element-wise product of two matrices.
+77. Compute mean of each row without using a loop.
+78. Vectorize distance calculation between each row of two matrices.
+79. Implement softmax function using pure NumPy vectorization.
+80. Create a 10×10 grid of distances from the origin using broadcasting.
+
+---
+
+## 🧰 **5. Handling Missing Values**
+
+81. Create an array with `np.nan` and count total NaNs.
+82. Replace all NaN with 0.
+83. Compute sum and mean ignoring NaN (`np.nansum`, `np.nanmean`).
+84. Replace NaN values with column mean in a 2D array.
+85. Drop all rows containing NaN values.
+86. Check if an array has infinite values.
+87. Replace all infinite values with the largest finite number.
+88. Fill missing values using forward-fill logic.
+89. Interpolate missing values linearly.
+90. Create a masked array ignoring NaNs in computations.
+
+---
+
+## 🎯 **Bonus Challenge**
+
+91. Combine all:
+
+* Create a 5×5 random array with some NaNs
+* Replace NaNs with column means
+* Reshape the array to (25,)
+* Filter elements > mean
+* Stack result with its reversed version
+
+---
+
+Would you like me to now create a **practice workbook (with solutions + explanations)** for one full topic (e.g., “Indexing and Slicing”) next?
+That way, you can learn + code side by side.
