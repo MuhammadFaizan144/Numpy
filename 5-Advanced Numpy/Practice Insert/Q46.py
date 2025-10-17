@@ -1,0 +1,1 @@
+# 46. Insert `99` at index 2 in a 1D array `[1,2,3,4,5]`.

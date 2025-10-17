@@ -1,0 +1,1 @@
+# 47. Insert `[10,20,30]` as a new row into a (2×3) matrix.
