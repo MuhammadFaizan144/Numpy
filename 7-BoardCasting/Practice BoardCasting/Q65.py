@@ -1,1 +1,0 @@
-# 65. Apply broadcasting to create a multiplication table (1×10, 10×1).

@@ -1,1 +1,0 @@
-# 64. Use broadcasting to scale each column of a 2D array by a 1D array.
