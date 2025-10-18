@@ -1,0 +1,1 @@
+# 63. Multiply a 1D array with a 2D array using broadcasting.

@@ -138,8 +138,8 @@ Here’s a **complete categorized set of programming exercises** — clear, prac
 ### 🔸 **1D_to_2D**
 
 61. Convert a 1D array into 2D row and column vector.
-62. Multiply a 1D array with a 2D array using broadcasting.
-63. Add a 1D bias vector to a 2D matrix.
+62. Add a 1D bias vector to a 2D matrix.
+63. Multiply a 1D array with a 2D array using broadcasting.
 64. Use broadcasting to scale each column of a 2D array by a 1D array.
 65. Apply broadcasting to create a multiplication table (1×10, 10×1).
 
